@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .header {
   margin-bottom: 30px;
   margin-top: 20px;
@@ -32,4 +36,8 @@
   color: white;
   font-size: 16px;
   margin-left: auto;
+}
+
+.header .nav .active{
+  text-decoration: underline;
 }
